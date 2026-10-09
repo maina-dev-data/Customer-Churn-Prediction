@@ -1,0 +1,11 @@
+# Configuration file for Banking Churn Machine Learning Pipeline
+
+data:
+  raw_path: "data/raw/churn_data.csv"
+  processed_path: "data/processed/churn_cleaned.csv"
+  target_column: "Exited"
+
+model:
+  random_state: 42
+  test_size: 0.2
+  output_path: "models/churn_model.pkl"
